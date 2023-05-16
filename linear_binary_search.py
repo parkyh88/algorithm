@@ -23,9 +23,8 @@ def half_array(array, search):
 		return array[half_count]
 
 result = half_array(array, search)
-
 index = 0
-while len(result) >= 2:
+while result != search:
   index = index + 1  
   result = half_array(result, search)
   if(result == search):
