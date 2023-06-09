@@ -6,3 +6,7 @@ def solution(str1, str2):
     for idx in range(len(str1)):
         answer += f'{str1[idx]}{str2[idx]}'
     return answer
+
+def solution(str1, str2):
+    answer = [ f'{str1[idx]}{str2[idx]}' for idx in range(len(str1)) ]
+    return ''.join(answer)
