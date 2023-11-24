@@ -9,4 +9,5 @@ result.append(sum(k_arr[:k]))
 for i in range(n-k):
   result.append(result[i] - k_arr[i] + k_arr[k+i])
 
+print(result)
 print(max(result))
