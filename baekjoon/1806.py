@@ -8,7 +8,6 @@ answer = 100001
 n_sum = n_arr[0]
 
 while left <= right:  
-  print(right, left)
   if n_sum >= s:    
     n_sum -= n_arr[left]
     answer = min(answer, right-left+1)    
